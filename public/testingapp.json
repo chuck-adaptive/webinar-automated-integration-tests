@@ -1,0 +1,18 @@
+{
+    "startup_app": {
+        "name": "SeleniumTesting",
+        "description": "Sample Selenium Test",
+        "url": "http://localhost:3000",
+        "uuid": "SeleniumTesting",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Sample Selenium Test",
+        "name": "SeleniumTesting"
+    }
+}
