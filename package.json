@@ -1,5 +1,9 @@
 {
   "name": "webinar-june-7",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
