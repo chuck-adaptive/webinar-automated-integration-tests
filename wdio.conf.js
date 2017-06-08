@@ -23,7 +23,6 @@ exports.config = {
   coloredLogs: true,
   bail: 0,
   screenshotPath: './errorShots/',
-  baseUrl: 'http://localhost',
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,

@@ -7,7 +7,7 @@
         "autoShow": true
     },
     "runtime": {
-        "arguments": "",
+        "arguments": "--disable-init-reload",
         "version": "stable"
     },
     "shortcut": {
