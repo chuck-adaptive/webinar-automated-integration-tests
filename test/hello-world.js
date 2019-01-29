@@ -56,7 +56,7 @@ describe('Application For Webinar', () => {
         done(version)
       })
     }).value
-    expect(runtimeVersion).to.equal('7.53.20.20')
+    expect(runtimeVersion).to.equal('10.66.39.25')
   })
   it('Updates the homepage when anything but Hello World is submitted', () => {
     myApp.setValue('#valueField', 'Not Hello World')

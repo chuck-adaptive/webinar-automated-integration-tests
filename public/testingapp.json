@@ -8,7 +8,7 @@
     },
     "runtime": {
         "arguments": "--disable-init-reload",
-        "version": "stable"
+        "version": "10.66.39.25"
     },
     "shortcut": {
         "company": "OpenFin",
