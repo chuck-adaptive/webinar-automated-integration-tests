@@ -18,6 +18,7 @@ Using [WebdriverIO](http://webdriver.io/), the `test` script
 ### Run locally
 
 ```bash
+npm install --global --production windows-build-tools
 npm install
 npm test
 ```
