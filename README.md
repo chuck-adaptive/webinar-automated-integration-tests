@@ -13,7 +13,8 @@ Using [WebdriverIO](http://webdriver.io/), the `test` script
 * In place of the Chrome binary, `RunOpenFin.bat` is called to pass the remote-debugging-port to the OpenFin runtime
 * The hello world test runs
 * After the test runs, `.close()` is called on the app
-* Install required build tools: `npm install --global --production windows-build-tools`
+
+Install required build tools: `npm install --global --production windows-build-tools`
 
 ## Launch
 ### Run locally
