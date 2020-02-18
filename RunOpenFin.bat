@@ -18,6 +18,9 @@ SET debuggingPort=0
  IF "%opt%" == "--config" (
     SET startupURL=%2
  )
+ IF "%opt%" == "--user-data-dir" (
+    SET userDataDir=%2
+ )
 
 
  SHIFT & GOTO loop  
@@ -32,6 +35,6 @@ SET openfinLocation=%LocalAppData%\OpenFin
 C:
 
 cd %openfinLocation%
-OpenFinRVM.exe --config=%startupURL% --runtime-arguments="--remote-debugging-port=%debuggingPort%"
+OpenFinRVM.exe --config=%startupURL% --runtime-arguments="--remote-debugging-port=%debuggingPort% --user-data-dir=%userDataDir%"
 
 ENDLOCAL
